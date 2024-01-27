@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #ffff;
+  color: rgb(98, 5, 5);
+  font-family: "Concert One", sans-serif;
+}
+.main-container {
+  background: linear-gradient(to right, rgb(234, 225, 225), rgb(245, 175, 175));
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  border: none;
+  padding: 5% 15%;
+  box-shadow: 0px 0px 10px #2e2e2e;
+  border-radius: 1em;
+}
+
+button i {
+  text-align: center;
+  width: 2em;
+  height: 1.5em;
+  padding: 2px;
+  color: rgb(98, 5, 5);
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 0.5em;
+  transition-duration: 0.4s;
+}
+button i:hover {
+  color: rgb(211, 170, 170);
+}
+
+.buttons {
+  margin-left: 14em;
+}
+
+button {
+  border: none;
+  box-shadow: 0 0 5px rgb(98, 5, 5);
+  border-radius: 6em;
+}
+
+button.break-button {
+  margin-top: 1em;
+  text-align: center;
+  margin-left: 2.3em;
+  color: rgb(98, 5, 5);
+  font-size: 1.5em;
+  padding: 0.5em;
+  font-family: "Concert One", sans-serif;
+  transition-duration: 0.4s;
+}
+button.break-button:hover {
+  color: #fff;
+  box-shadow: 0 0 5px rgb(98, 5, 5);
+  background: rgb(98, 5, 5);
+}
+
+.display-time {
+  font-size: 9em;
+  text-align: center;
+}
+.inside-h3 {
+  font-size: 4em;
+  text-align: center;
+}
+
+/* RESPONSIVE  Adjust styles for screens with a width of 600 pixels or less */
+/* @media only screen and (max-width: 600px) { */
+
+/* .main-container {
+      padding: 10px;
+      margin-left: 5%;
+      margin-right: 5%;
+    } */
+
+/* .buttons { */
+/* display: flex; */
+/* flex-direction: column; /* Stack buttons vertically */
+/* align-items: center; Center buttons horizontally */
+/* }  */
+
+/* button.break-button {
+      margin-top: 1em; */
+/* margin-left: 0; Remove unnecessary margin */
+/* width: 80%; Adjust the width as needed */
+/* } */
+
+/* button { */
+/* width: 100%; /* Make buttons fill the width of the container */
+/* margin-bottom: 10px; Add spacing between buttons  */
+/* }
+  } */

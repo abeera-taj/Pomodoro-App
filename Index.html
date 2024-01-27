@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusFruit - More work in Less Time</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nunito&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./stopwatch.png" />
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      FocusFruit
+      <img src="./logo.png" style="width: 2.5em; height: 2.5em" />
+    </h1>
+
+    <div class="main-container">
+      <div class="start-time">
+        <h3 class="inside-h3">Work Time</h3>
+
+        <div class="display-time" id="timer">25:00</div>
+      </div>
+      <!-- Buttons Session -->
+      <div class="buttons">
+        <button class="start" onclick="stopTime()">
+          <i class="fa-solid fa-play"></i>
+        </button>
+
+        <button class="restart" onclick="resetTimer()">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+        </button>
+        <button class="stop" onclick="stopTime()">
+          <i class="fa-solid fa-circle-stop"></i>
+        </button>
+        <br />
+        <button class="break-button" id="open-new-page">Break</button>
+      </div>
+    </div>
+
+    <br />
+
+    <script src="functions.js"></script>
+  </body>
+</html>
